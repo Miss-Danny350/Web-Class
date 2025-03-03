@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Webpage</title>
+    <link rel="stylesheet" href="style.css"> <!-- This links to your CSS file -->
+</head>
+<body>
+    <h1>Hello, World!</h1> <!-- Heading -->
+    <p>Welcome to my first webpage.</p> <!-- Paragraph -->
+    <button>Click Me!</button> <!-- Button to interact with later -->
+
+    <script>
+        // Get the button element
+        let button = document.querySelector("button");
+    
+        // Add an event listener to the button
+        button.addEventListener("click", function() {
+            // Change the text of the button when clicked
+            button.innerHTML = "You Clicked Me!";
+            // Change the background color of the body
+            document.body.style.backgroundColor = "lightgreen";
+        });
+    </script>
+
+    
+</body>
+<section>
+    <h2>About Me</h2>
+    <p>I'm learning web development and excited to build awesome websites!</p>
+</section>
+<p>Check out my favorite website: <a href="https://chatgpt.com/" target="_blank">Visit Example</a></p>
+<img src="c:\Users\miss daniel\My Website\adorable-baby-childhood-264109.jpg" alt="A description of the image" width="300">
+
+<section class="flex-container">
+    <div class="flex-item">Item 1</div>
+    <div class="flex-item">Item 2</div>
+    <div class="flex-item">Item 3</div>
+</section>
+
+<section class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+</section>
+
+</html>
